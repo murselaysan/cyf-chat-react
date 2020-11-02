@@ -7,10 +7,25 @@
   min-height: auto;
   background-color: aqua;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
 }
 .form-group{
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+.form-control{
+  max-height: 20px;
+}
+
+.writtenPar{
+  border: 2px solid turquoise;
+  min-height: 20px;
+  max-width: 200px;
+  display: flex;
+  justify-content: left;
+}
+.mainP{
+  display: flex;
+  justify-content: center;
 }
